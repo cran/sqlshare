@@ -1,6 +1,7 @@
-29c1109e5fd328d33502acbecb2293cd *DESCRIPTION
+32792693ab62b6a867d179a7edf15b83 *DESCRIPTION
+5f109a6ea34424439a2c3f85eee1567a *LICENSE
 05d6536fefb8f236f4ac3cff32c65231 *NAMESPACE
-8b904e2960445de9caa7f19a4cc989e5 *R/sqlshare.R
-2c643c899c7d4a691213f073b70746dd *README.md
-55164067fb8f814ff76370f2a61b3e0e *man/fetch.data.frame.Rd
-238af749ca84aa7183de17025ffa958e *man/sqlshare-package.Rd
+2b090728edda536d6edd8a1dd40789dc *R/sqlshare.R
+b1d8cf8d73b6d688dd914ac5d3d3ea85 *README.md
+e2523d9ca1da007a5a7a9ac1f72deb40 *man/fetch.data.frame.Rd
+4278a56894c902412a1c8117cbbf78b6 *man/sqlshare-package.Rd

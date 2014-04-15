@@ -1,7 +1,7 @@
 SQLShare API for R
 ===================
 This provides a minimal API for accessing [SQLShare](http://escience.washington.edu/sqlshare) in the [R programming language](http://r-project.org). Here's the syntax for
-obtaining a data.frame from a table:
+obtaining a data.frame from a table located on SQLShare:
 
     sql <- "select * from [sqlshare@uw.edu].[periodic_table]"
     elements <- fetch.data.frame(sql)
@@ -13,7 +13,7 @@ That's it! It loads a config file for authentication from:
 The format of the file should look like:
 
     [sqlshare]
-    host=sqlshare-rest.cloudapp.net
+    host=rest.sqlshare.escience.washington.edu
     user=your-user-name@your-domain
     password=your-api-key
 
@@ -51,3 +51,4 @@ To install the latest version from the source here, use:
     unzip master.zip && rm master.zip
     R CMD build sqlshare-r-master
     sudo R CMD INSTALL sqlshare_*.tar.gz
+
